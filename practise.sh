@@ -6,4 +6,4 @@ something(){
 }
 
 something "x y z"
-something "$*"
+something $*
