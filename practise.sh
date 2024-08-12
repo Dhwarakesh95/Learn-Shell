@@ -6,5 +6,7 @@ something(){
 }
 
 something $1
+something "$1"
 something $*
+something "$*"
 something $2
