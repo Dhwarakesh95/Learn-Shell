@@ -5,4 +5,4 @@ something(){
   echo $#
 }
 
-something $1
+something "$1"
