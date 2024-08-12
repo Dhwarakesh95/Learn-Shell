@@ -1,7 +1,7 @@
 something(){
 	echo $1
   echo $*
-  echo $*
+  echo $#
 }
 
 something x y z
