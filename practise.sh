@@ -1,9 +1,8 @@
 something(){
-	echo $1
-  echo $*
-
+	echo value of in double quote $1
+  echo value of in $2
+  echo value of in "$2"
   echo $#
 }
 
-something "x y z"
-something "$1"
+something $1
